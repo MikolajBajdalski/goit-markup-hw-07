@@ -769,10 +769,10 @@ body {
   opacity: 0;
   cursor: pointer;
 }
-.modal-form__checkbox:checked + .checkbox-checkmark {
+.modal-form__checkbox:checked + .modal-form__checkbox-checkmark {
   display: block;
 }
-.modal-form__checkbox:checked + .checkbox-border {
+.modal-form__checkbox:checked + .modal-form__checkbox-border {
   background-color: #2196f3;
   fill: #2196f3;
 }

@@ -134,10 +134,10 @@
     position: absolute;
     opacity: 0;
     cursor: pointer;
-    &:checked + .checkbox-checkmark {
+    &:checked + .modal-form__checkbox-checkmark {
       display: block;
     }
-    &:checked + .checkbox-border {
+    &:checked + .modal-form__checkbox-border {
       background-color: $primaryColor;
       fill: $primaryColor;
     }
